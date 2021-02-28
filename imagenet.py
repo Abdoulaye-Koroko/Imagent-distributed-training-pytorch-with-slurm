@@ -276,7 +276,7 @@ def run(args):
     # Initialize Datasets.
     
 
-    data = datasets.ImageFolder(root='/ifpengpfs/scratch/work/r11/anciauxa/DATA/imagenet_images',
+    data = datasets.ImageFolder(root='/DATA/imagenet_images',
                                            transform=transform)
 
     classes=data.classes
@@ -399,9 +399,9 @@ def run(args):
         print(f"\tTraining time: {time/60} minutes")
     
 
-    
-if __name__ == "__main__":
-    # Training settings
+
+
+def main():
     parser = argparse.ArgumentParser(description='Imagenet Pytorch')
     
     parser.add_argument('--seed', default=0, type=int,
@@ -420,3 +420,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     run(args)
+
+	
+
+	
+
+if __name__ == "__main__":
+	main()
+  
+   
