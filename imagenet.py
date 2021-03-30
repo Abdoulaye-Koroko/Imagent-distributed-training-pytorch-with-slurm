@@ -21,13 +21,22 @@ import torchvision.datasets as datasets
 import torchvision.models as models
 
 from typing import Tuple
+from torch.optim import SGD
 from torch.optim.optimizer import Optimizer
 from torch.utils.data import DataLoader
 from torch.utils.data.distributed import DistributedSampler
 from torch.nn.parallel import DistributedDataParallel
 
+import numpy as np
 
 from torch.utils.tensorboard import SummaryWriter
+
+
+
+from custom_optimizers import FR,Nadam
+
+
+
 
 
 
@@ -145,7 +154,7 @@ def train(train_loader: DataLoader,
 def adjust_learning_rate(initial_lr: float,
                          optimizer: Optimizer,
                          epoch: int):
-    """Sets the learning rate to the initial LR decayed by sqrt 10 every 30 epochs"""
+    """Sets the learning rate to the initial LR decayed by  10 every 30 epochs"""
     lr = initial_lr * (0.1 ** ((epoch) // 30))
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
@@ -275,24 +284,24 @@ def run(args):
    
     # Initialize Datasets.
     
+    root = os.path.abspath(os.path.join(".", os.pardir))
+    
+    directory = os.path.join(root,'data/imagenet')
+    
+    
 
-    data = datasets.ImageFolder(root='/DATA/imagenet_images',
-                                           transform=transform)
+    trainset = datasets.ImageNet(root=directory,split='train',transform=transform)
+    
 
-    classes=data.classes
-    n_train = int(0.8*len(data))+1
-    n_val = int(0.2*len(data))
-    trainset, valset = torch.utils.data.random_split(data, [n_train, n_val])
+    valset = datasets.ImageNet(root=directory,split='val',transform=transform)
     
-    print(f"Number of training images: {len(trainset)}")
-    print(f"Number of test images: {len(valset)}")
-    print(f"Number of classes: {len(classes)}")
-    
-    #trainset = datasets.CIFAR100(root='./cifar100', train=True,
-	#			download=False, transform=transform)
-    
-    #valset = datasets.CIFAR100(root='./cifar100', train=False,
-		#		download=False, transform=transform)
+    classes= trainset.classes 
+
+    print("Training samples: {} images ".format(len(trainset)))
+    print("Test samples: {} images ".format(len(valset)))
+ 
+    print("number of classes: {}".format(len(classes)))
+
 	
     num_classes=len(classes)
     
@@ -313,8 +322,23 @@ def run(args):
     # define loss function (criterion) and optimizer
     criterion = nn.CrossEntropyLoss().cuda()
     
-    optimizer = torch.optim.SGD(model.parameters(), learning_rate, momentum=0.9, weight_decay=1e-4)
-   
+    optimizer = SGD(model.parameters(), learning_rate, momentum=0.9, weight_decay=1e-4)
+    #optimizer=torch.optim.Adagrad(params=model.parameters(), lr=learning_rate, lr_decay=0, weight_decay=0, 
+        #                       initial_accumulator_value=0, eps=1e-10)
+     
+    #optimizer = torch.optim.RMSprop(params=model.parameters(), lr=learning_rate, alpha=0.99, eps=1e-08, weight_decay=0, 
+                   #           momentum=0, centered=False)
+      
+    #optimizer = torch.optim.Adadelta(model.parameters(), lr=learning_rate, rho=0.9, eps=1e-06, weight_decay=0)
+    
+    #optimizer = torch.optim.Adam(params=model.parameters(), lr=learning_rate, betas=(0.9, 0.999), eps=1e-08, weight_decay=0, amsgrad=False)
+    
+    #optimizer = torch.optim.ASGD(params=model.parameters(), lr=learning_rate, lambd=0.0001, alpha=0.75, t0=1000000.0, weight_decay=0)
+    
+    #optimizer = Nadam(params=model.parameters(), lr=learning_rate, betas=(0.9, 0.999), eps=1e-8,weight_decay=0, schedule_decay=4e-3)
+    
+    #optimizer = optimizer=FR(params=model.parameters(),lr=learning_rate,beta_0=0.9)
+
     
 
     # Create DistributedSampler to handle distributing the dataset across nodes
@@ -336,12 +360,13 @@ def run(args):
 			    
 			    
     if is_master:
-        writer = SummaryWriter("imagenet_Nadam")
+        writer = SummaryWriter("imagenet_FR")
     
-    
-    best_prec1 = 0
+    best_top5=0
+    best_top1 = 0
     time=0
-    best_epoch=0
+    best_epoch_top1=0
+    best_epoch_top5=0
 
     for epoch in range(epochs):
         # Set epoch count for DistributedSampler.
@@ -360,12 +385,15 @@ def run(args):
         time+=epoch_t1+epoch_t2
 
         # remember best prec@1 and save checkpoint if desired
-        if val_prec1 > best_prec1:
-            best_prec1 = val_prec1
-            best_epoch=epoch
+        if val_prec1 > best_top1:
+            best_top1 = val_prec1
+            best_epoch_top1=epoch
             if is_master and save_model:
-                torch.save(model.state_dict(), "imagenet_Nadam_resnet18.pt")
-
+                torch.save(model.state_dict(), "imagenet_FR_resnet18.pt")
+        
+        if val_prec5 > best_top5:
+            best_top5 = val_prec5
+            best_epoch_top5=epoch
         if is_master:
             print(f"Epoch {epoch+1} Summary: ")
             print(f"\tLearning rate: {lr}")
@@ -394,14 +422,16 @@ def run(args):
     if is_master:
         print("\n")
         print("Training Summary:")
-        print(f"\tBest epoch: {best_epoch}")
-        print(f"\t Best Test top1 accuracy: {best_prec1}")
+        print(f"\tTop1 best epoch: {best_epoch_top1}")
+        print(f"\t Best Test top1 accuracy: {best_top1}")
+        print(f"\tTop5 best epoch: {best_epoch_top5}")
+        print(f"\t Best Test top5 accuracy: {best_top5}")
         print(f"\tTraining time: {time/60} minutes")
     
 
-
-
-def main():
+    
+if __name__ == "__main__":
+    # Training settings
     parser = argparse.ArgumentParser(description='Imagenet Pytorch')
     
     parser.add_argument('--seed', default=0, type=int,
@@ -415,17 +445,8 @@ def main():
                         help='number of epochs to train (default: 14)')
     parser.add_argument('--lr', type=float, default=.1, metavar='LR',
                         help='learning rate (default: .1)')
-    parser.add_argument('--save-model', action='store_true', default=True,
+    parser.add_argument('--save-model', action='store_true', default=False,
                         help='For Saving the current Model')
     args = parser.parse_args()
 
     run(args)
-
-	
-
-	
-
-if __name__ == "__main__":
-	main()
-  
-   
