@@ -1,20 +1,3 @@
-8 - Number of nodes: 8
-8 - Node ID        : 4
-8 - Local rank     : 0
-8 - Global rank    : 8
-8 - World size     : 16
-8 - GPUs per node  : 2
-8 - Master         : False
-8 - Multi-node     : True
-8 - Multi-GPU      : True
-8 - Hostname       : ener027
-Initializing PyTorch distributed ...
-Backend: nccl
-Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
-Initialize Model...
 1 - Number of nodes: 8
 1 - Node ID        : 0
 1 - Local rank     : 1
@@ -24,47 +7,30 @@ Initialize Model...
 1 - Master         : False
 1 - Multi-node     : True
 1 - Multi-GPU      : True
-1 - Hostname       : ener023
+1 - Hostname       : ener021
 Initializing PyTorch distributed ...
 Backend: nccl
 Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
 Initialize Model...
-6 - Number of nodes: 8
-6 - Node ID        : 3
-6 - Local rank     : 0
-6 - Global rank    : 6
-6 - World size     : 16
-6 - GPUs per node  : 2
-6 - Master         : False
-6 - Multi-node     : True
-6 - Multi-GPU      : True
-6 - Hostname       : ener026
+4 - Number of nodes: 8
+4 - Node ID        : 2
+4 - Local rank     : 0
+4 - Global rank    : 4
+4 - World size     : 16
+4 - GPUs per node  : 2
+4 - Master         : False
+4 - Multi-node     : True
+4 - Multi-GPU      : True
+4 - Hostname       : ener024
 Initializing PyTorch distributed ...
 Backend: nccl
 Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
-Initialize Model...
-5 - Number of nodes: 8
-5 - Node ID        : 2
-5 - Local rank     : 1
-5 - Global rank    : 5
-5 - World size     : 16
-5 - GPUs per node  : 2
-5 - Master         : False
-5 - Multi-node     : True
-5 - Multi-GPU      : True
-5 - Hostname       : ener025
-Initializing PyTorch distributed ...
-Backend: nccl
-Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
 Initialize Model...
 3 - Number of nodes: 8
 3 - Node ID        : 1
@@ -75,30 +41,132 @@ Initialize Model...
 3 - Master         : False
 3 - Multi-node     : True
 3 - Multi-GPU      : True
-3 - Hostname       : ener024
+3 - Hostname       : ener023
 Initializing PyTorch distributed ...
 Backend: nccl
 Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
 Initialize Model...
-12 - Number of nodes: 8
-12 - Node ID        : 6
-12 - Local rank     : 0
-12 - Global rank    : 12
-12 - World size     : 16
-12 - GPUs per node  : 2
-12 - Master         : False
-12 - Multi-node     : True
-12 - Multi-GPU      : True
-12 - Hostname       : ener029
+6 - Number of nodes: 8
+6 - Node ID        : 3
+6 - Local rank     : 0
+6 - Global rank    : 6
+6 - World size     : 16
+6 - GPUs per node  : 2
+6 - Master         : False
+6 - Multi-node     : True
+6 - Multi-GPU      : True
+6 - Hostname       : ener025
 Initializing PyTorch distributed ...
 Backend: nccl
 Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
+Initialize Model...
+8 - Number of nodes: 8
+8 - Node ID        : 4
+8 - Local rank     : 0
+8 - Global rank    : 8
+8 - World size     : 16
+8 - GPUs per node  : 2
+8 - Master         : False
+8 - Multi-node     : True
+8 - Multi-GPU      : True
+8 - Hostname       : ener026
+Initializing PyTorch distributed ...
+Backend: nccl
+Initialize Dataloaders...
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
+Initialize Model...
+0 - Number of nodes: 8
+0 - Node ID        : 0
+0 - Local rank     : 0
+0 - Global rank    : 0
+0 - World size     : 16
+0 - GPUs per node  : 2
+0 - Master         : True
+0 - Multi-node     : True
+0 - Multi-GPU      : True
+0 - Hostname       : ener021
+Initializing PyTorch distributed ...
+Backend: nccl
+Initialize Dataloaders...
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
+Initialize Model...
+5 - Number of nodes: 8
+5 - Node ID        : 2
+5 - Local rank     : 1
+5 - Global rank    : 5
+5 - World size     : 16
+5 - GPUs per node  : 2
+5 - Master         : False
+5 - Multi-node     : True
+5 - Multi-GPU      : True
+5 - Hostname       : ener024
+Initializing PyTorch distributed ...
+Backend: nccl
+Initialize Dataloaders...
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
+Initialize Model...
+9 - Number of nodes: 8
+9 - Node ID        : 4
+9 - Local rank     : 1
+9 - Global rank    : 9
+9 - World size     : 16
+9 - GPUs per node  : 2
+9 - Master         : False
+9 - Multi-node     : True
+9 - Multi-GPU      : True
+9 - Hostname       : ener026
+Initializing PyTorch distributed ...
+Backend: nccl
+Initialize Dataloaders...
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
+Initialize Model...
+2 - Number of nodes: 8
+2 - Node ID        : 1
+2 - Local rank     : 0
+2 - Global rank    : 2
+2 - World size     : 16
+2 - GPUs per node  : 2
+2 - Master         : False
+2 - Multi-node     : True
+2 - Multi-GPU      : True
+2 - Hostname       : ener023
+Initializing PyTorch distributed ...
+Backend: nccl
+Initialize Dataloaders...
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
+Initialize Model...
+7 - Number of nodes: 8
+7 - Node ID        : 3
+7 - Local rank     : 1
+7 - Global rank    : 7
+7 - World size     : 16
+7 - GPUs per node  : 2
+7 - Master         : False
+7 - Multi-node     : True
+7 - Multi-GPU      : True
+7 - Hostname       : ener025
+Initializing PyTorch distributed ...
+Backend: nccl
+Initialize Dataloaders...
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
 Initialize Model...
 10 - Number of nodes: 8
 10 - Node ID        : 5
@@ -109,13 +177,30 @@ Initialize Model...
 10 - Master         : False
 10 - Multi-node     : True
 10 - Multi-GPU      : True
-10 - Hostname       : ener028
+10 - Hostname       : ener027
 Initializing PyTorch distributed ...
 Backend: nccl
 Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
+Initialize Model...
+12 - Number of nodes: 8
+12 - Node ID        : 6
+12 - Local rank     : 0
+12 - Global rank    : 12
+12 - World size     : 16
+12 - GPUs per node  : 2
+12 - Master         : False
+12 - Multi-node     : True
+12 - Multi-GPU      : True
+12 - Hostname       : ener028
+Initializing PyTorch distributed ...
+Backend: nccl
+Initialize Dataloaders...
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
 Initialize Model...
 14 - Number of nodes: 8
 14 - Node ID        : 7
@@ -130,60 +215,26 @@ Initialize Model...
 Initializing PyTorch distributed ...
 Backend: nccl
 Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
 Initialize Model...
-9 - Number of nodes: 8
-9 - Node ID        : 4
-9 - Local rank     : 1
-9 - Global rank    : 9
-9 - World size     : 16
-9 - GPUs per node  : 2
-9 - Master         : False
-9 - Multi-node     : True
-9 - Multi-GPU      : True
-9 - Hostname       : ener027
+11 - Number of nodes: 8
+11 - Node ID        : 5
+11 - Local rank     : 1
+11 - Global rank    : 11
+11 - World size     : 16
+11 - GPUs per node  : 2
+11 - Master         : False
+11 - Multi-node     : True
+11 - Multi-GPU      : True
+11 - Hostname       : ener027
 Initializing PyTorch distributed ...
 Backend: nccl
 Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
-Initialize Model...
-2 - Number of nodes: 8
-2 - Node ID        : 1
-2 - Local rank     : 0
-2 - Global rank    : 2
-2 - World size     : 16
-2 - GPUs per node  : 2
-2 - Master         : False
-2 - Multi-node     : True
-2 - Multi-GPU      : True
-2 - Hostname       : ener024
-Initializing PyTorch distributed ...
-Backend: nccl
-Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
-Initialize Model...
-7 - Number of nodes: 8
-7 - Node ID        : 3
-7 - Local rank     : 1
-7 - Global rank    : 7
-7 - World size     : 16
-7 - GPUs per node  : 2
-7 - Master         : False
-7 - Multi-node     : True
-7 - Multi-GPU      : True
-7 - Hostname       : ener026
-Initializing PyTorch distributed ...
-Backend: nccl
-Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
 Initialize Model...
 13 - Number of nodes: 8
 13 - Node ID        : 6
@@ -194,13 +245,13 @@ Initialize Model...
 13 - Master         : False
 13 - Multi-node     : True
 13 - Multi-GPU      : True
-13 - Hostname       : ener029
+13 - Hostname       : ener028
 Initializing PyTorch distributed ...
 Backend: nccl
 Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
 Initialize Model...
 15 - Number of nodes: 8
 15 - Node ID        : 7
@@ -215,664 +266,613 @@ Initialize Model...
 Initializing PyTorch distributed ...
 Backend: nccl
 Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
-Initialize Model...
-4 - Number of nodes: 8
-4 - Node ID        : 2
-4 - Local rank     : 0
-4 - Global rank    : 4
-4 - World size     : 16
-4 - GPUs per node  : 2
-4 - Master         : False
-4 - Multi-node     : True
-4 - Multi-GPU      : True
-4 - Hostname       : ener025
-Initializing PyTorch distributed ...
-Backend: nccl
-Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
-Initialize Model...
-11 - Number of nodes: 8
-11 - Node ID        : 5
-11 - Local rank     : 1
-11 - Global rank    : 11
-11 - World size     : 16
-11 - GPUs per node  : 2
-11 - Master         : False
-11 - Multi-node     : True
-11 - Multi-GPU      : True
-11 - Hostname       : ener028
-Initializing PyTorch distributed ...
-Backend: nccl
-Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
-Initialize Model...
-0 - Number of nodes: 8
-0 - Node ID        : 0
-0 - Local rank     : 0
-0 - Global rank    : 0
-0 - World size     : 16
-0 - GPUs per node  : 2
-0 - Master         : True
-0 - Multi-node     : True
-0 - Multi-GPU      : True
-0 - Hostname       : ener023
-Initializing PyTorch distributed ...
-Backend: nccl
-Initialize Dataloaders...
-Number of training images: 864011
-Number of test images: 216002
-Number of classes: 1075
+Training samples: 1281167 images 
+Test samples: 50000 images 
+number of classes: 1000
 Initialize Model...
 Epoch 1 Summary: 
 	Learning rate: 0.1
-	Train loss: 5.395545056645904 ; Test loss: 4.706947551583344
-	Train top1 accuracy: 7.180833875285506 ; Test top1 accuracy: 11.778792120375723
-	Train top5 accuracy: 18.645098274917963 ; Test top5 accuracy: 28.74344676395632
-	Train time: 358.47429370880127 seconds; Test time:42.330018758773804 seconds
+	Train loss: 5.1642508354430765 ; Test loss: 4.634505844116211
+	Train top1 accuracy: 8.826736596445686 ; Test top1 accuracy: 12.062463188171387
+	Train top5 accuracy: 22.024165235769253 ; Test top5 accuracy: 29.55859375
+	Train time: 529.7250635623932 seconds; Test time:12.692442178726196 seconds
 Epoch 2 Summary: 
 	Learning rate: 0.1
-	Train loss: 3.9526851261961515 ; Test loss: 4.022600374131833
-	Train top1 accuracy: 19.931085437394998 ; Test top1 accuracy: 19.033265041855145
-	Train top5 accuracy: 42.51431750799242 ; Test top5 accuracy: 41.44851583804724
-	Train time: 352.3134551048279 seconds; Test time:43.053446769714355 seconds
+	Train loss: 3.523233334096476 ; Test loss: 3.5535455989837645
+	Train top1 accuracy: 26.52298061383037 ; Test top1 accuracy: 25.576650924682617
+	Train top5 accuracy: 51.33054023962051 ; Test top5 accuracy: 50.7891731262207
+	Train time: 523.8374764919281 seconds; Test time:12.781311273574829 seconds
 Epoch 3 Summary: 
 	Learning rate: 0.1
-	Train loss: 3.2620537213239627 ; Test loss: 3.548225980884624
-	Train top1 accuracy: 29.264955375996813 ; Test top1 accuracy: 24.709530776401735
-	Train top5 accuracy: 55.6589980464411 ; Test top5 accuracy: 50.23636252925081
-	Train time: 354.96336102485657 seconds; Test time:52.86392402648926 seconds
+	Train loss: 2.787221806117902 ; Test loss: 3.2050810718536376
+	Train top1 accuracy: 38.39370812851781 ; Test top1 accuracy: 31.67069580078125
+	Train top5 accuracy: 65.0787389468842 ; Test top5 accuracy: 57.770747375488284
+	Train time: 523.190648317337 seconds; Test time:14.87436056137085 seconds
 Epoch 4 Summary: 
 	Learning rate: 0.1
-	Train loss: 2.852409561098469 ; Test loss: 3.1563930376520695
-	Train top1 accuracy: 35.67320290334982 ; Test top1 accuracy: 30.64975990439361
-	Train top5 accuracy: 63.37082522062329 ; Test top5 accuracy: 57.65642522416025
-	Train time: 354.2479736804962 seconds; Test time:43.789921283721924 seconds
+	Train loss: 2.366679612440042 ; Test loss: 2.7974526691436767
+	Train top1 accuracy: 45.975999612777755 ; Test top1 accuracy: 38.30756195068359
+	Train top5 accuracy: 72.29549587115693 ; Test top5 accuracy: 64.84920379638672
+	Train time: 521.8361670970917 seconds; Test time:13.399927377700806 seconds
 Epoch 5 Summary: 
 	Learning rate: 0.1
-	Train loss: 2.580702470942131 ; Test loss: 2.987437216740734
-	Train top1 accuracy: 40.191534946315095 ; Test top1 accuracy: 33.30124185670097
-	Train top5 accuracy: 68.24229541435061 ; Test top5 accuracy: 60.933331543544554
-	Train time: 353.4157464504242 seconds; Test time:42.29341650009155 seconds
+	Train loss: 2.092210560560988 ; Test loss: 2.5665124893188476
+	Train top1 accuracy: 51.17436566825111 ; Test top1 accuracy: 42.87142532348633
+	Train top5 accuracy: 76.79493311190376 ; Test top5 accuracy: 68.94988189697266
+	Train time: 524.0627405643463 seconds; Test time:15.4585862159729 seconds
 Epoch 6 Summary: 
 	Learning rate: 0.1
-	Train loss: 2.3812337870846427 ; Test loss: 2.884594696872639
-	Train top1 accuracy: 43.64679700842401 ; Test top1 accuracy: 35.671308913320864
-	Train top5 accuracy: 71.73490406777621 ; Test top5 accuracy: 63.0626335144043
-	Train time: 354.84111618995667 seconds; Test time:42.56411385536194 seconds
+	Train loss: 1.8985626023417463 ; Test loss: 2.418498983383179
+	Train top1 accuracy: 54.99768221797273 ; Test top1 accuracy: 44.56294219970703
+	Train top5 accuracy: 79.85722309636613 ; Test top5 accuracy: 71.37017242431641
+	Train time: 527.1157276630402 seconds; Test time:22.03328537940979 seconds
 Epoch 7 Summary: 
 	Learning rate: 0.1
-	Train loss: 2.226628419912257 ; Test loss: 2.7603525080770814
-	Train top1 accuracy: 46.36665136328241 ; Test top1 accuracy: 36.93254107349324
-	Train top5 accuracy: 74.392280000081 ; Test top5 accuracy: 64.97065331800928
-	Train time: 353.8870499134064 seconds; Test time:45.587403535842896 seconds
+	Train loss: 1.7508323710566511 ; Test loss: 2.335410451889038
+	Train top1 accuracy: 57.938981059260264 ; Test top1 accuracy: 46.472214202880856
+	Train top5 accuracy: 82.09367152448661 ; Test top5 accuracy: 72.81010437011719
+	Train time: 533.4561688899994 seconds; Test time:12.88187313079834 seconds
 Epoch 8 Summary: 
 	Learning rate: 0.1
-	Train loss: 2.100853229021009 ; Test loss: 2.6104908011994272
-	Train top1 accuracy: 48.68869360250319 ; Test top1 accuracy: 39.86503770216456
-	Train top5 accuracy: 76.50280262734653 ; Test top5 accuracy: 68.0559096426334
-	Train time: 354.0936155319214 seconds; Test time:42.2160530090332 seconds
+	Train loss: 1.63200593051819 ; Test loss: 2.1573154735565185
+	Train top1 accuracy: 60.3284220893543 ; Test top1 accuracy: 50.12400527954102
+	Train top5 accuracy: 83.83233551171641 ; Test top5 accuracy: 75.88509704589843
+	Train time: 523.1882200241089 seconds; Test time:14.986268758773804 seconds
 Epoch 9 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.9944057713187702 ; Test loss: 2.4638279406529553
-	Train top1 accuracy: 50.64319479521982 ; Test top1 accuracy: 42.26259980111752
-	Train top5 accuracy: 78.3069233103386 ; Test top5 accuracy: 70.50964751333561
-	Train time: 352.42471408843994 seconds; Test time:42.94852089881897 seconds
+	Train loss: 1.5374540612339593 ; Test loss: 2.122859582901001
+	Train top1 accuracy: 62.29893792246858 ; Test top1 accuracy: 50.76809387207031
+	Train top5 accuracy: 85.21248493864894 ; Test top5 accuracy: 76.56802764892578
+	Train time: 522.6828405857086 seconds; Test time:15.769202709197998 seconds
 Epoch 10 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.9002406611261775 ; Test loss: 2.409453715918199
-	Train top1 accuracy: 52.461668204357274 ; Test top1 accuracy: 43.32531759873876
-	Train top5 accuracy: 79.79891098167094 ; Test top5 accuracy: 71.39445150123453
-	Train time: 354.8663911819458 seconds; Test time:43.363370180130005 seconds
+	Train loss: 1.4576860114027517 ; Test loss: 2.0692114877700805
+	Train top1 accuracy: 63.967463703582084 ; Test top1 accuracy: 51.993550872802736
+	Train top5 accuracy: 86.37104435393604 ; Test top5 accuracy: 77.27207427978516
+	Train time: 524.1651756763458 seconds; Test time:13.489033699035645 seconds
 Epoch 11 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.8205229467690274 ; Test loss: 2.4060131918709233
-	Train top1 accuracy: 53.939313382334056 ; Test top1 accuracy: 43.01649824178444
-	Train top5 accuracy: 81.11135294765093 ; Test top5 accuracy: 71.5361406578208
-	Train time: 352.84213638305664 seconds; Test time:43.87015962600708 seconds
+	Train loss: 1.3870776587020095 ; Test loss: 1.9676524305343628
+	Train top1 accuracy: 65.42957959159875 ; Test top1 accuracy: 54.29606414794922
+	Train top5 accuracy: 87.35645719534293 ; Test top5 accuracy: 79.15952941894531
+	Train time: 555.7196457386017 seconds; Test time:13.20412278175354 seconds
 Epoch 12 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.7465170480628713 ; Test loss: 2.403863061149165
-	Train top1 accuracy: 55.33521861035677 ; Test top1 accuracy: 43.20106491952572
-	Train top5 accuracy: 82.33554979297222 ; Test top5 accuracy: 71.55824394945829
-	Train time: 354.2936043739319 seconds; Test time:44.460535287857056 seconds
+	Train loss: 1.3270129927050192 ; Test loss: 2.273690710067749
+	Train top1 accuracy: 66.70405689519815 ; Test top1 accuracy: 48.203825073242186
+	Train top5 accuracy: 88.20252750628292 ; Test top5 accuracy: 73.91796875
+	Train time: 522.9870066642761 seconds; Test time:13.175135612487793 seconds
 Epoch 13 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.6810523345007151 ; Test loss: 2.630607744432845
-	Train top1 accuracy: 56.65087680907046 ; Test top1 accuracy: 40.33320923571317
-	Train top5 accuracy: 83.29713904575149 ; Test top5 accuracy: 68.55538220675487
-	Train time: 352.90768814086914 seconds; Test time:42.63674235343933 seconds
+	Train loss: 1.2727462430350698 ; Test loss: 2.185109977722168
+	Train top1 accuracy: 67.84813924186146 ; Test top1 accuracy: 49.89486267089844
+	Train top5 accuracy: 88.97348895088172 ; Test top5 accuracy: 75.39873260498047
+	Train time: 524.0552604198456 seconds; Test time:13.990548849105835 seconds
 Epoch 14 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.6214342538214408 ; Test loss: 2.396715710747917
-	Train top1 accuracy: 57.81007733277235 ; Test top1 accuracy: 43.87981810659733
-	Train top5 accuracy: 84.2863432536193 ; Test top5 accuracy: 71.98460273022921
-	Train time: 354.1592164039612 seconds; Test time:43.2799334526062 seconds
+	Train loss: 1.2270116830786195 ; Test loss: 2.019176230430603
+	Train top1 accuracy: 68.75925103087013 ; Test top1 accuracy: 53.27505889892578
+	Train top5 accuracy: 89.58131994911658 ; Test top5 accuracy: 78.41479949951172
+	Train time: 524.2060377597809 seconds; Test time:13.428896188735962 seconds
 Epoch 15 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.5635255883090304 ; Test loss: 2.2995116823124437
-	Train top1 accuracy: 58.9086241428321 ; Test top1 accuracy: 45.304215953035175
-	Train top5 accuracy: 85.21214135337215 ; Test top5 accuracy: 73.49403064655807
-	Train time: 353.10153436660767 seconds; Test time:43.94879603385925 seconds
+	Train loss: 1.1820640181200193 ; Test loss: 1.9973848819732667
+	Train top1 accuracy: 69.71911508968464 ; Test top1 accuracy: 53.53714630126953
+	Train top5 accuracy: 90.19354564922686 ; Test top5 accuracy: 78.4113720703125
+	Train time: 524.204261302948 seconds; Test time:13.81031322479248 seconds
 Epoch 16 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.5091781039938543 ; Test loss: 2.3181458171808496
-	Train top1 accuracy: 60.02590821252615 ; Test top1 accuracy: 45.38859658871057
-	Train top5 accuracy: 86.05185894717538 ; Test top5 accuracy: 73.8839684252469
-	Train time: 354.2161600589752 seconds; Test time:44.47472786903381 seconds
+	Train loss: 1.1431589052319147 ; Test loss: 2.0696513080596923
+	Train top1 accuracy: 70.57240201566167 ; Test top1 accuracy: 52.65809234619141
+	Train top5 accuracy: 90.72559033719877 ; Test top5 accuracy: 78.00596923828125
+	Train time: 525.5112800598145 seconds; Test time:13.87556767463684 seconds
 Epoch 17 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.4588184091152172 ; Test loss: 2.1783191348021886
-	Train top1 accuracy: 61.02898797491716 ; Test top1 accuracy: 47.330741738373376
-	Train top5 accuracy: 86.81165612026413 ; Test top5 accuracy: 75.66884562654316
-	Train time: 353.83870458602905 seconds; Test time:42.372527837753296 seconds
+	Train loss: 1.1067257648268447 ; Test loss: 2.0575563716888428
+	Train top1 accuracy: 71.31264955319536 ; Test top1 accuracy: 52.77089477539062
+	Train top5 accuracy: 91.22299763493645 ; Test top5 accuracy: 78.19409606933594
+	Train time: 523.7976801395416 seconds; Test time:13.482625246047974 seconds
 Epoch 18 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.410991028021862 ; Test loss: 2.3648087258608834
-	Train top1 accuracy: 61.9855342702278 ; Test top1 accuracy: 44.49906536318221
-	Train top5 accuracy: 87.58293900331614 ; Test top5 accuracy: 72.86120583876124
-	Train time: 354.5653624534607 seconds; Test time:45.65693235397339 seconds
+	Train loss: 1.0718716393454006 ; Test loss: 1.9641132164001465
+	Train top1 accuracy: 72.10531856305302 ; Test top1 accuracy: 54.48898147583008
+	Train top5 accuracy: 91.64414205337866 ; Test top5 accuracy: 79.42924499511719
+	Train time: 524.9922335147858 seconds; Test time:13.652487516403198 seconds
 Epoch 19 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.3652814694490478 ; Test loss: 2.327542192531082
-	Train top1 accuracy: 62.899181130938054 ; Test top1 accuracy: 45.28794997593142
-	Train top5 accuracy: 88.28293235381068 ; Test top5 accuracy: 73.42926126156213
-	Train time: 353.7096035480499 seconds; Test time:43.784963607788086 seconds
+	Train loss: 1.0389931454254797 ; Test loss: 1.9508861541748046
+	Train top1 accuracy: 72.84666238120569 ; Test top1 accuracy: 54.622051849365235
+	Train top5 accuracy: 92.10951688723823 ; Test top5 accuracy: 79.37990112304688
+	Train time: 523.1462843418121 seconds; Test time:12.833258390426636 seconds
 Epoch 20 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.3214911293079503 ; Test loss: 2.4006061194077977
-	Train top1 accuracy: 63.856188227215085 ; Test top1 accuracy: 44.29426063681549
-	Train top5 accuracy: 88.94515729063495 ; Test top5 accuracy: 72.63112611590691
-	Train time: 354.16675305366516 seconds; Test time:42.841479539871216 seconds
+	Train loss: 1.0085209745187729 ; Test loss: 2.073681507110596
+	Train top1 accuracy: 73.52106812205939 ; Test top1 accuracy: 53.20868942260742
+	Train top5 accuracy: 92.4815126607974 ; Test top5 accuracy: 78.07900939941406
+	Train time: 524.654641866684 seconds; Test time:17.891236543655396 seconds
 Epoch 21 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.2783946906220855 ; Test loss: 2.202853702149301
-	Train top1 accuracy: 64.71162038504795 ; Test top1 accuracy: 47.54253920069281
-	Train top5 accuracy: 89.61089332182826 ; Test top5 accuracy: 75.42808050479529
-	Train time: 352.18959879875183 seconds; Test time:42.5474328994751 seconds
+	Train loss: 0.9798796161675987 ; Test loss: 1.9440954637527466
+	Train top1 accuracy: 74.12937244744347 ; Test top1 accuracy: 54.906102600097654
+	Train top5 accuracy: 92.88374368832135 ; Test top5 accuracy: 79.41933227539063
+	Train time: 522.7833392620087 seconds; Test time:12.609476327896118 seconds
 Epoch 22 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.2377279471447118 ; Test loss: 2.2756920962963463
-	Train top1 accuracy: 65.64021693586739 ; Test top1 accuracy: 46.18035075349628
-	Train top5 accuracy: 90.19699158148742 ; Test top5 accuracy: 74.62263539152325
-	Train time: 354.19471859931946 seconds; Test time:44.105857610702515 seconds
+	Train loss: 0.9527056398102269 ; Test loss: 1.918829517364502
+	Train top1 accuracy: 74.72277873468856 ; Test top1 accuracy: 55.87172027587891
+	Train top5 accuracy: 93.21276881062566 ; Test top5 accuracy: 80.27380615234375
+	Train time: 524.2840168476105 seconds; Test time:13.263263940811157 seconds
 Epoch 23 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.19792396903603 ; Test loss: 2.5428322508650005
-	Train top1 accuracy: 66.52517165956904 ; Test top1 accuracy: 43.6481299850176
-	Train top5 accuracy: 90.77691946888422 ; Test top5 accuracy: 71.83375362180314
-	Train time: 354.2449655532837 seconds; Test time:44.08541822433472 seconds
+	Train loss: 0.9301018863440321 ; Test loss: 1.9892735815048217
+	Train top1 accuracy: 75.251579491856 ; Test top1 accuracy: 54.368845825195315
+	Train top5 accuracy: 93.53313594732802 ; Test top5 accuracy: 78.98522216796874
+	Train time: 523.3929147720337 seconds; Test time:13.035109519958496 seconds
 Epoch 24 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.1611725913969826 ; Test loss: 2.3847086834457687
-	Train top1 accuracy: 67.32035046618131 ; Test top1 accuracy: 45.45166692193949
-	Train top5 accuracy: 91.29248497045435 ; Test top5 accuracy: 73.69515026740308
-	Train time: 353.445454120636 seconds; Test time:43.0150842666626 seconds
+	Train loss: 0.9025235545520965 ; Test loss: 1.9686391544342041
+	Train top1 accuracy: 75.87342914910363 ; Test top1 accuracy: 54.87757965087891
+	Train top5 accuracy: 93.87951880750565 ; Test top5 accuracy: 79.55697235107422
+	Train time: 525.0946552753448 seconds; Test time:13.365893840789795 seconds
 Epoch 25 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.1227613777910928 ; Test loss: 2.423922205871006
-	Train top1 accuracy: 68.26917415094601 ; Test top1 accuracy: 45.23459848367943
-	Train top5 accuracy: 91.81866263439305 ; Test top5 accuracy: 73.25192145581515
-	Train time: 354.7212247848511 seconds; Test time:46.7023708820343 seconds
+	Train loss: 0.8812625625263006 ; Test loss: 2.066688690185547
+	Train top1 accuracy: 76.36518833050712 ; Test top1 accuracy: 54.30129699707031
+	Train top5 accuracy: 94.14303659554868 ; Test top5 accuracy: 78.89184112548828
+	Train time: 525.107780456543 seconds; Test time:12.846553087234497 seconds
 Epoch 26 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.0907933070761333 ; Test loss: 2.6118960695446662
-	Train top1 accuracy: 68.87895537100697 ; Test top1 accuracy: 41.998485421234705
-	Train top5 accuracy: 92.30924367678674 ; Test top5 accuracy: 70.15813935477779
-	Train time: 354.85356879234314 seconds; Test time:43.012571573257446 seconds
+	Train loss: 0.8591447951504216 ; Test loss: 2.027565221786499
+	Train top1 accuracy: 76.85438956848729 ; Test top1 accuracy: 55.1487321472168
+	Train top5 accuracy: 94.4110495716619 ; Test top5 accuracy: 79.5106134033203
+	Train time: 523.6735608577728 seconds; Test time:12.449811458587646 seconds
 Epoch 27 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.0555119385933989 ; Test loss: 2.482494556678916
-	Train top1 accuracy: 69.74356827577708 ; Test top1 accuracy: 45.029159401947595
-	Train top5 accuracy: 92.81218686939981 ; Test top5 accuracy: 73.19995181965378
-	Train time: 352.54677724838257 seconds; Test time:47.331448554992676 seconds
+	Train loss: 0.8377875896117177 ; Test loss: 1.984624376296997
+	Train top1 accuracy: 77.37794720098233 ; Test top1 accuracy: 54.473135223388674
+	Train top5 accuracy: 94.68831996491161 ; Test top5 accuracy: 79.2894677734375
+	Train time: 523.4676580429077 seconds; Test time:13.26469612121582 seconds
 Epoch 28 Summary: 
 	Learning rate: 0.1
-	Train loss: 1.0219991937350323 ; Test loss: 2.5424994410208934
-	Train top1 accuracy: 70.54285107291705 ; Test top1 accuracy: 44.05980102970915
-	Train top5 accuracy: 93.28831076960994 ; Test top5 accuracy: 72.14734548892615
-	Train time: 354.01757550239563 seconds; Test time:43.71284866333008 seconds
+	Train loss: 0.8203914288324289 ; Test loss: 2.059720754623413
+	Train top1 accuracy: 77.75281937815511 ; Test top1 accuracy: 54.39652114868164
+	Train top5 accuracy: 94.89915770996873 ; Test top5 accuracy: 79.11703979492188
+	Train time: 524.0459816455841 seconds; Test time:12.942788124084473 seconds
 Epoch 29 Summary: 
 	Learning rate: 0.1
-	Train loss: 0.990308862585592 ; Test loss: 2.584176942987262
-	Train top1 accuracy: 71.32931401040317 ; Test top1 accuracy: 43.88364673110674
-	Train top5 accuracy: 93.69994724870293 ; Test top5 accuracy: 72.27914219982219
-	Train time: 354.3823866844177 seconds; Test time:52.72927284240723 seconds
+	Train loss: 0.8009049387785573 ; Test loss: 2.05561571598053
+	Train top1 accuracy: 78.20042832590902 ; Test top1 accuracy: 54.211969146728514
+	Train top5 accuracy: 95.13773894386169 ; Test top5 accuracy: 79.10653717041015
+	Train time: 523.6010653972626 seconds; Test time:12.849272727966309 seconds
 Epoch 30 Summary: 
 	Learning rate: 0.1
-	Train loss: 0.962013140108913 ; Test loss: 2.5247619264530687
-	Train top1 accuracy: 72.00131357563616 ; Test top1 accuracy: 44.56285303943562
-	Train top5 accuracy: 94.07868415145512 ; Test top5 accuracy: 72.54870878975346
-	Train time: 353.9279751777649 seconds; Test time:43.30589485168457 seconds
+	Train loss: 0.7795689879134059 ; Test loss: 1.9731765079498291
+	Train top1 accuracy: 78.80666832725842 ; Test top1 accuracy: 54.78873092651367
+	Train top5 accuracy: 95.3602735135502 ; Test top5 accuracy: 79.64047790527344
+	Train time: 524.493320941925 seconds; Test time:12.796812295913696 seconds
 Epoch 31 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.5750326460571651 ; Test loss: 2.0038525102273472
-	Train top1 accuracy: 84.2927583088807 ; Test top1 accuracy: 52.17210395381136
-	Train top5 accuracy: 97.91668473374787 ; Test top5 accuracy: 79.67189846398695
-	Train time: 352.7295229434967 seconds; Test time:42.577418088912964 seconds
+	Train loss: 0.4380672470734904 ; Test loss: 1.5757810115814208
+	Train top1 accuracy: 89.22016938425863 ; Test top1 accuracy: 63.03301895141602
+	Train top5 accuracy: 98.34705502689837 ; Test top5 accuracy: 85.38999877929687
+	Train time: 523.1872692108154 seconds; Test time:13.196408987045288 seconds
 Epoch 32 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.4718337792779597 ; Test loss: 2.027884213429577
-	Train top1 accuracy: 87.80621149867632 ; Test top1 accuracy: 51.85697152479639
-	Train top5 accuracy: 98.70081103356529 ; Test top5 accuracy: 79.44554174171304
-	Train time: 354.6837332248688 seconds; Test time:42.85157895088196 seconds
+	Train loss: 0.35106916187670284 ; Test loss: 1.5879094648361205
+	Train top1 accuracy: 92.0381200016497 ; Test top1 accuracy: 62.87905380249023
+	Train top5 accuracy: 98.95523968291359 ; Test top5 accuracy: 85.3782797241211
+	Train time: 527.0069525241852 seconds; Test time:13.048898458480835 seconds
 Epoch 33 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.42995681553655324 ; Test loss: 2.0398116977709644
-	Train top1 accuracy: 89.20288776560417 ; Test top1 accuracy: 51.731820232463335
-	Train top5 accuracy: 98.98056567223716 ; Test top5 accuracy: 79.40804089240308
-	Train time: 353.5635962486267 seconds; Test time:43.00201654434204 seconds
+	Train loss: 0.3149463510551392 ; Test loss: 1.6000299644470215
+	Train top1 accuracy: 93.24289720431685 ; Test top1 accuracy: 62.55907287597656
+	Train top5 accuracy: 99.17378021581486 ; Test top5 accuracy: 85.21112182617188
+	Train time: 524.2039544582367 seconds; Test time:13.011783361434937 seconds
 Epoch 34 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.4003696832894149 ; Test loss: 2.0659914410339213
-	Train top1 accuracy: 90.20543099353664 ; Test top1 accuracy: 51.457186500981166
-	Train top5 accuracy: 99.17589355758017 ; Test top5 accuracy: 79.21429911199606
-	Train time: 354.9897973537445 seconds; Test time:42.233471155166626 seconds
+	Train loss: 0.289438214402991 ; Test loss: 1.609806718826294
+	Train top1 accuracy: 94.07814364692274 ; Test top1 accuracy: 62.47199295043945
+	Train top5 accuracy: 99.33385691779871 ; Test top5 accuracy: 85.16505737304688
+	Train time: 524.6050403118134 seconds; Test time:13.545006275177002 seconds
 Epoch 35 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.37582682369727094 ; Test loss: 2.0840918511714577
-	Train top1 accuracy: 91.03111017597796 ; Test top1 accuracy: 51.340877964811504
-	Train top5 accuracy: 99.31876747529088 ; Test top5 accuracy: 79.06205296066572
-	Train time: 353.8369143009186 seconds; Test time:42.284862756729126 seconds
+	Train loss: 0.26932605363119144 ; Test loss: 1.626806936264038
+	Train top1 accuracy: 94.7064747673254 ; Test top1 accuracy: 62.269346923828124
+	Train top5 accuracy: 99.44703520753514 ; Test top5 accuracy: 84.86608154296874
+	Train time: 524.9408032894135 seconds; Test time:12.604336977005005 seconds
 Epoch 36 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.3556924107091687 ; Test loss: 2.093718665950703
-	Train top1 accuracy: 91.65603975775117 ; Test top1 accuracy: 50.865638193094505
-	Train top5 accuracy: 99.43039347210201 ; Test top5 accuracy: 78.79114971520765
-	Train time: 352.20665860176086 seconds; Test time:42.221271276474 seconds
+	Train loss: 0.2523476845635393 ; Test loss: 1.6374227809906006
+	Train top1 accuracy: 95.2353599231464 ; Test top1 accuracy: 62.18245132446289
+	Train top5 accuracy: 99.53975714052828 ; Test top5 accuracy: 84.89556304931641
+	Train time: 521.6401941776276 seconds; Test time:12.831473588943481 seconds
 Epoch 37 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.3373496156733183 ; Test loss: 2.1035546885346466
-	Train top1 accuracy: 92.27592430295537 ; Test top1 accuracy: 50.88540807759987
-	Train top5 accuracy: 99.52446999934047 ; Test top5 accuracy: 78.85900763745578
-	Train time: 353.54528284072876 seconds; Test time:43.86574101448059 seconds
+	Train loss: 0.2377975992025278 ; Test loss: 1.6486483001708985
+	Train top1 accuracy: 95.71691499655239 ; Test top1 accuracy: 61.92773422241211
+	Train top5 accuracy: 99.61442363604951 ; Test top5 accuracy: 84.72530975341797
+	Train time: 524.296240568161 seconds; Test time:12.455063343048096 seconds
 Epoch 38 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.32134748691631154 ; Test loss: 2.1261805071021027
-	Train top1 accuracy: 92.77370989831138 ; Test top1 accuracy: 50.6288754445202
-	Train top5 accuracy: 99.5900294950223 ; Test top5 accuracy: 78.59386624030347
-	Train time: 353.12485694885254 seconds; Test time:43.32407093048096 seconds
+	Train loss: 0.22486969343008706 ; Test loss: 1.6595573663711547
+	Train top1 accuracy: 96.10442213357067 ; Test top1 accuracy: 61.790536651611326
+	Train top5 accuracy: 99.67583009762505 ; Test top5 accuracy: 84.63041717529296
+	Train time: 523.8294899463654 seconds; Test time:15.171780109405518 seconds
 Epoch 39 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.3063192222779396 ; Test loss: 2.1472156092805683
-	Train top1 accuracy: 93.25805609825098 ; Test top1 accuracy: 50.52771521514317
-	Train top5 accuracy: 99.66187501518647 ; Test top5 accuracy: 78.48685368951762
-	Train time: 352.07553267478943 seconds; Test time:43.69500207901001 seconds
+	Train loss: 0.21298567503214644 ; Test loss: 1.6779677963256836
+	Train top1 accuracy: 96.4713767542245 ; Test top1 accuracy: 61.69450180053711
+	Train top5 accuracy: 99.72744699788932 ; Test top5 accuracy: 84.56305267333984
+	Train time: 526.9566578865051 seconds; Test time:13.195345163345337 seconds
 Epoch 40 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.29286273367597027 ; Test loss: 2.148508456518065
-	Train top1 accuracy: 93.63463247217838 ; Test top1 accuracy: 50.38252215115529
-	Train top5 accuracy: 99.71262406624889 ; Test top5 accuracy: 78.36266888312574
-	Train time: 352.90859055519104 seconds; Test time:43.38863968849182 seconds
+	Train loss: 0.20226158713475584 ; Test loss: 1.6777010345458985
+	Train top1 accuracy: 96.78300569918208 ; Test top1 accuracy: 61.67298049926758
+	Train top5 accuracy: 99.77155664706001 ; Test top5 accuracy: 84.63627624511719
+	Train time: 524.0989971160889 seconds; Test time:13.324937105178833 seconds
 Epoch 41 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.28012621618136413 ; Test loss: 2.1664340810955696
-	Train top1 accuracy: 94.06638034260104 ; Test top1 accuracy: 50.2409689561376
-	Train top5 accuracy: 99.76272496227969 ; Test top5 accuracy: 78.30098810735738
-	Train time: 354.7819709777832 seconds; Test time:42.88645815849304 seconds
+	Train loss: 0.19265232913600752 ; Test loss: 1.6893081045150757
+	Train top1 accuracy: 97.06661549772318 ; Test top1 accuracy: 61.50390609741211
+	Train top5 accuracy: 99.80595366261637 ; Test top5 accuracy: 84.46602294921875
+	Train time: 523.5088958740234 seconds; Test time:13.368443965911865 seconds
 Epoch 42 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.2684708752832706 ; Test loss: 2.1845958480295145
-	Train top1 accuracy: 94.40853153246839 ; Test top1 accuracy: 50.00292238199486
-	Train top5 accuracy: 99.7981618727553 ; Test top5 accuracy: 78.15643692016602
-	Train time: 352.4971718788147 seconds; Test time:43.02066135406494 seconds
+	Train loss: 0.18337543901448813 ; Test loss: 1.6988648414611816
+	Train top1 accuracy: 97.31904337581354 ; Test top1 accuracy: 61.47770492553711
+	Train top5 accuracy: 99.8385385141586 ; Test top5 accuracy: 84.46521209716796
+	Train time: 523.4106066226959 seconds; Test time:13.040085077285767 seconds
 Epoch 43 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.2578110439588108 ; Test loss: 2.1942479947827898
-	Train top1 accuracy: 94.68257052525524 ; Test top1 accuracy: 50.085921161579634
-	Train top5 accuracy: 99.83186315021244 ; Test top5 accuracy: 78.22097224109578
-	Train time: 352.39575719833374 seconds; Test time:42.57823872566223 seconds
+	Train loss: 0.17544234094147484 ; Test loss: 1.7046005249023437
+	Train top1 accuracy: 97.54597161143732 ; Test top1 accuracy: 61.242666473388674
+	Train top5 accuracy: 99.861646877691 ; Test top5 accuracy: 84.4123306274414
+	Train time: 523.8479399681091 seconds; Test time:12.662701845169067 seconds
 Epoch 44 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.24732497387446498 ; Test loss: 2.2189574016714997
-	Train top1 accuracy: 95.02085726408032 ; Test top1 accuracy: 49.81460261794756
-	Train top5 accuracy: 99.859038818504 ; Test top5 accuracy: 78.0232205660838
-	Train time: 352.1112446784973 seconds; Test time:43.200438261032104 seconds
+	Train loss: 0.16769128257093338 ; Test loss: 1.7151435947418212
+	Train top1 accuracy: 97.74917388038513 ; Test top1 accuracy: 60.99837829589844
+	Train top5 accuracy: 99.88149739225832 ; Test top5 accuracy: 84.3215283203125
+	Train time: 524.2536218166351 seconds; Test time:13.309620141983032 seconds
 Epoch 45 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.23807141177744662 ; Test loss: 2.226961027901128
-	Train top1 accuracy: 95.25004821705028 ; Test top1 accuracy: 49.64964719088572
-	Train top5 accuracy: 99.88024381664692 ; Test top5 accuracy: 77.92238516177771
-	Train time: 352.85327315330505 seconds; Test time:42.79226851463318 seconds
+	Train loss: 0.16059243371977974 ; Test loss: 1.7200553703308106
+	Train top1 accuracy: 97.94692682382016 ; Test top1 accuracy: 61.08969650268555
+	Train top5 accuracy: 99.90271344657143 ; Test top5 accuracy: 84.22678344726563
+	Train time: 522.7325806617737 seconds; Test time:13.013438701629639 seconds
 Epoch 46 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.22959159985537778 ; Test loss: 2.2462174420086845
-	Train top1 accuracy: 95.48237859355329 ; Test top1 accuracy: 49.70290050866469
-	Train top5 accuracy: 99.8995360785751 ; Test top5 accuracy: 77.8757696331672
-	Train time: 353.5241265296936 seconds; Test time:42.42413091659546 seconds
+	Train loss: 0.154009502416792 ; Test loss: 1.7357502937316895
+	Train top1 accuracy: 98.11810093108838 ; Test top1 accuracy: 60.963074951171876
+	Train top5 accuracy: 99.91724178813898 ; Test top5 accuracy: 84.08763275146484
+	Train time: 523.1193873882294 seconds; Test time:12.594497919082642 seconds
 Epoch 47 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.22111699899649734 ; Test loss: 2.245624929104211
-	Train top1 accuracy: 95.71150809554692 ; Test top1 accuracy: 49.373495713719784
-	Train top5 accuracy: 99.91385294475826 ; Test top5 accuracy: 77.68266972955668
-	Train time: 354.77768182754517 seconds; Test time:42.65140748023987 seconds
+	Train loss: 0.14789155554085875 ; Test loss: 1.7413620281219482
+	Train top1 accuracy: 98.25160095409844 ; Test top1 accuracy: 60.87581085205078
+	Train top5 accuracy: 99.93128182408147 ; Test top5 accuracy: 84.11969329833984
+	Train time: 525.866530418396 seconds; Test time:12.848301649093628 seconds
 Epoch 48 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.2132457417405047 ; Test loss: 2.2576154447951406
-	Train top1 accuracy: 95.89324403374115 ; Test top1 accuracy: 49.54628199451375
-	Train top5 accuracy: 99.92961973940592 ; Test top5 accuracy: 77.68584895583818
-	Train time: 354.389986038208 seconds; Test time:42.20324182510376 seconds
+	Train loss: 0.14221733487166535 ; Test loss: 1.7514226531982422
+	Train top1 accuracy: 98.39747841441974 ; Test top1 accuracy: 60.859853973388674
+	Train top5 accuracy: 99.94177231468713 ; Test top5 accuracy: 84.03018096923829
+	Train time: 524.1469616889954 seconds; Test time:13.074288845062256 seconds
 Epoch 49 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.20616332529845396 ; Test loss: 2.266078031288003
-	Train top1 accuracy: 96.06395815447044 ; Test top1 accuracy: 49.3654835179167
-	Train top5 accuracy: 99.94260959715639 ; Test top5 accuracy: 77.6073130481648
-	Train time: 352.59573435783386 seconds; Test time:43.76332712173462 seconds
+	Train loss: 0.13698025234638692 ; Test loss: 1.7546571731567382
+	Train top1 accuracy: 98.5183616370058 ; Test top1 accuracy: 60.74156112670899
+	Train top5 accuracy: 99.95109387480032 ; Test top5 accuracy: 83.96067932128906
+	Train time: 524.7742140293121 seconds; Test time:13.004619359970093 seconds
 Epoch 50 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.1992782332462157 ; Test loss: 2.276907117861622
-	Train top1 accuracy: 96.22070764478349 ; Test top1 accuracy: 49.33163009499604
-	Train top5 accuracy: 99.95080938836409 ; Test top5 accuracy: 77.60514579628999
-	Train time: 354.75840759277344 seconds; Test time:43.32843041419983 seconds
+	Train loss: 0.13222259054549587 ; Test loss: 1.7696633100509644
+	Train top1 accuracy: 98.61238819646378 ; Test top1 accuracy: 60.625663146972656
+	Train top5 accuracy: 99.95967389676518 ; Test top5 accuracy: 83.82396087646484
+	Train time: 524.1725513935089 seconds; Test time:12.902429342269897 seconds
 Epoch 51 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.19282609955253194 ; Test loss: 2.286447063931879
-	Train top1 accuracy: 96.35749621639884 ; Test top1 accuracy: 49.09518443413501
-	Train top5 accuracy: 99.95776714306872 ; Test top5 accuracy: 77.36224365234375
-	Train time: 353.6063256263733 seconds; Test time:43.2588415145874 seconds
+	Train loss: 0.12771585653907955 ; Test loss: 1.767884202003479
+	Train top1 accuracy: 98.71041628804069 ; Test top1 accuracy: 60.55420837402344
+	Train top5 accuracy: 99.96653791433707 ; Test top5 accuracy: 83.78699890136718
+	Train time: 524.3104701042175 seconds; Test time:12.651853322982788 seconds
 Epoch 52 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.18684085214872495 ; Test loss: 2.3007505074986874
-	Train top1 accuracy: 96.49780924286323 ; Test top1 accuracy: 48.96376534228055
-	Train top5 accuracy: 99.96504128261765 ; Test top5 accuracy: 77.33322316295695
-	Train time: 352.88432097435 seconds; Test time:43.596134424209595 seconds
+	Train loss: 0.12337070561874026 ; Test loss: 1.7709548902511596
+	Train top1 accuracy: 98.79481569722819 ; Test top1 accuracy: 60.62695297241211
+	Train top5 accuracy: 99.97059392472045 ; Test top5 accuracy: 83.82281799316407
+	Train time: 524.4321794509888 seconds; Test time:13.413145065307617 seconds
 Epoch 53 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.18144413221503886 ; Test loss: 2.317637600988712
-	Train top1 accuracy: 96.57635857821641 ; Test top1 accuracy: 48.966476332466556
-	Train top5 accuracy: 99.97292468898104 ; Test top5 accuracy: 77.2794260708791
-	Train time: 354.0390079021454 seconds; Test time:42.68657445907593 seconds
+	Train loss: 0.11962124212576558 ; Test loss: 1.787716612815857
+	Train top1 accuracy: 98.86390037658497 ; Test top1 accuracy: 60.405770721435545
+	Train top5 accuracy: 99.97537116882519 ; Test top5 accuracy: 83.76864715576171
+	Train time: 523.5364446640015 seconds; Test time:13.931631565093994 seconds
 Epoch 54 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.17632700940726492 ; Test loss: 2.31830961974162
-	Train top1 accuracy: 96.70392031918205 ; Test top1 accuracy: 48.84726808655937
-	Train top5 accuracy: 99.97500740521328 ; Test top5 accuracy: 77.25068499007315
-	Train time: 353.0955057144165 seconds; Test time:43.47440028190613 seconds
+	Train loss: 0.11567022655004511 ; Test loss: 1.78861310005188
+	Train top1 accuracy: 98.92678991445717 ; Test top1 accuracy: 60.462595825195315
+	Train top5 accuracy: 99.97909594648563 ; Test top5 accuracy: 83.78018127441406
+	Train time: 524.1153013706207 seconds; Test time:12.684258937835693 seconds
 Epoch 55 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.17157351702310464 ; Test loss: 2.322947331194608
-	Train top1 accuracy: 96.76841489963621 ; Test top1 accuracy: 48.84716991208634
-	Train top5 accuracy: 99.97962029624324 ; Test top5 accuracy: 77.13942848061616
-	Train time: 353.3320665359497 seconds; Test time:42.50962567329407 seconds
+	Train loss: 0.11237615369522153 ; Test loss: 1.7913947296142578
+	Train top1 accuracy: 98.98263911774364 ; Test top1 accuracy: 60.29753829956055
+	Train top5 accuracy: 99.98223518639708 ; Test top5 accuracy: 83.54352142333984
+	Train time: 522.8150758743286 seconds; Test time:12.50218415260315 seconds
 Epoch 56 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.16687319967984024 ; Test loss: 2.344682859924604
-	Train top1 accuracy: 96.85986293774646 ; Test top1 accuracy: 48.857175647087814
-	Train top5 accuracy: 99.9828754443128 ; Test top5 accuracy: 77.19715982113244
-	Train time: 354.8995797634125 seconds; Test time:44.022733211517334 seconds
+	Train loss: 0.10947983346570034 ; Test loss: 1.7958132600784302
+	Train top1 accuracy: 99.02310092913838 ; Test top1 accuracy: 60.36751907348633
+	Train top5 accuracy: 99.98590119578206 ; Test top5 accuracy: 83.57724029541015
+	Train time: 524.5846993923187 seconds; Test time:12.515055179595947 seconds
 Epoch 57 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.1626595462809242 ; Test loss: 2.3332018312418237
-	Train top1 accuracy: 96.91549420469745 ; Test top1 accuracy: 48.86384359395729
-	Train top5 accuracy: 99.98680946386256 ; Test top5 accuracy: 77.1073270113963
-	Train time: 352.8908166885376 seconds; Test time:41.17244839668274 seconds
+	Train loss: 0.10647130308869167 ; Test loss: 1.8067053318023683
+	Train top1 accuracy: 99.07173565020577 ; Test top1 accuracy: 60.14147262573242
+	Train top5 accuracy: 99.98769520037472 ; Test top5 accuracy: 83.51879455566406
+	Train time: 523.8130712509155 seconds; Test time:14.824896097183228 seconds
 Epoch 58 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.1587414343210193 ; Test loss: 2.3511156990843
-	Train top1 accuracy: 96.9814540447217 ; Test top1 accuracy: 48.62136434159189
-	Train top5 accuracy: 99.9873879961493 ; Test top5 accuracy: 76.99986130336545
-	Train time: 352.5912187099457 seconds; Test time:43.42367458343506 seconds
+	Train loss: 0.10367583427518702 ; Test loss: 1.8176259231567382
+	Train top1 accuracy: 99.10613159325938 ; Test top1 accuracy: 60.12698989868164
+	Train top5 accuracy: 99.98907997204473 ; Test top5 accuracy: 83.4144677734375
+	Train time: 524.2842812538147 seconds; Test time:12.73042368888855 seconds
 Epoch 59 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.15473035722970963 ; Test loss: 2.3669004665230804
-	Train top1 accuracy: 97.04130498153903 ; Test top1 accuracy: 48.62201377580751
-	Train top5 accuracy: 99.98981783175356 ; Test top5 accuracy: 76.98549076296248
-	Train time: 353.0440740585327 seconds; Test time:42.11630725860596 seconds
+	Train loss: 0.10121427412135914 ; Test loss: 1.823350305557251
+	Train top1 accuracy: 99.1404324613821 ; Test top1 accuracy: 60.22965789794922
+	Train top5 accuracy: 99.99095197683707 ; Test top5 accuracy: 83.53246612548828
+	Train time: 524.2614119052887 seconds; Test time:12.637790203094482 seconds
 Epoch 60 Summary: 
 	Learning rate: 0.010000000000000002
-	Train loss: 0.15139621174872203 ; Test loss: 2.365672581600693
-	Train top1 accuracy: 97.05754998735907 ; Test top1 accuracy: 48.65323930416467
-	Train top5 accuracy: 99.99201625444313 ; Test top5 accuracy: 76.99645557043688
-	Train time: 353.46092343330383 seconds; Test time:51.48153853416443 seconds
+	Train loss: 0.09880044539801229 ; Test loss: 1.8136831665039062
+	Train top1 accuracy: 99.16075310996546 ; Test top1 accuracy: 60.09459747314453
+	Train top5 accuracy: 99.99204397963258 ; Test top5 accuracy: 83.53799377441406
+	Train time: 523.9727449417114 seconds; Test time:13.845680713653564 seconds
 Epoch 61 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.13351946103417478 ; Test loss: 2.3535189201247015
-	Train top1 accuracy: 97.61867203192688 ; Test top1 accuracy: 48.77052199165776
-	Train top5 accuracy: 99.99502462233413 ; Test top5 accuracy: 77.17048788970371
-	Train time: 353.3027911186218 seconds; Test time:50.14225220680237 seconds
+	Train loss: 0.08621530250286141 ; Test loss: 1.8063376665115356
+	Train top1 accuracy: 99.38106521021444 ; Test top1 accuracy: 60.289246826171876
+	Train top5 accuracy: 99.99424721714787 ; Test top5 accuracy: 83.55052337646484
+	Train time: 525.1883063316345 seconds; Test time:12.753755569458008 seconds
 Epoch 62 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.1309247684281019 ; Test loss: 2.3566861580002985
-	Train top1 accuracy: 97.64151944707355 ; Test top1 accuracy: 48.73196389540186
-	Train top5 accuracy: 99.99514032879146 ; Test top5 accuracy: 77.10788575658259
-	Train time: 353.95846223831177 seconds; Test time:52.67129445075989 seconds
+	Train loss: 0.08439278751373672 ; Test loss: 1.8094335556030274
+	Train top1 accuracy: 99.40315849864825 ; Test top1 accuracy: 60.335642700195315
+	Train top5 accuracy: 99.99453998602236 ; Test top5 accuracy: 83.57200775146484
+	Train time: 524.6743214130402 seconds; Test time:12.917873859405518 seconds
 Epoch 63 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12980090348288345 ; Test loss: 2.3637731615102515
-	Train top1 accuracy: 97.6371543305745 ; Test top1 accuracy: 48.78508128759996
-	Train top5 accuracy: 99.99525603524881 ; Test top5 accuracy: 77.12644735372291
-	Train time: 354.7108826637268 seconds; Test time:58.47130560874939 seconds
+	Train loss: 0.08390773625705189 ; Test loss: 1.807585916519165
+	Train top1 accuracy: 99.39190937078799 ; Test top1 accuracy: 60.34931442260742
+	Train top5 accuracy: 99.9951639876198 ; Test top5 accuracy: 83.55280792236329
+	Train time: 524.1571617126465 seconds; Test time:12.957130432128906 seconds
 Epoch 64 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.1290939807256251 ; Test loss: 2.3618109383673036
-	Train top1 accuracy: 97.66237014842824 ; Test top1 accuracy: 48.77817161128206
-	Train top5 accuracy: 99.99512496152761 ; Test top5 accuracy: 77.13331179348927
-	Train time: 355.71807956695557 seconds; Test time:61.14497995376587 seconds
+	Train loss: 0.08333358339989147 ; Test loss: 1.811279182434082
+	Train top1 accuracy: 99.40612356655133 ; Test top1 accuracy: 60.28990997314453
+	Train top5 accuracy: 99.99508598742013 ; Test top5 accuracy: 83.62831634521484
+	Train time: 522.7667679786682 seconds; Test time:13.225672721862793 seconds
 Epoch 65 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.1286249809779262 ; Test loss: 2.3619983533643327
-	Train top1 accuracy: 97.65169443790381 ; Test top1 accuracy: 48.765688986148476
-	Train top5 accuracy: 99.9954874481635 ; Test top5 accuracy: 77.14984958576706
-	Train time: 354.8200182914734 seconds; Test time:57.50844955444336 seconds
+	Train loss: 0.08300683297478734 ; Test loss: 1.8120063018798829
+	Train top1 accuracy: 99.39851908333385 ; Test top1 accuracy: 60.32034927368164
+	Train top5 accuracy: 99.99539798821885 ; Test top5 accuracy: 83.63336517333984
+	Train time: 524.4088921546936 seconds; Test time:14.087188720703125 seconds
 Epoch 66 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12832603416454172 ; Test loss: 2.365821271572473
-	Train top1 accuracy: 97.64378749250801 ; Test top1 accuracy: 48.778262228335976
-	Train top5 accuracy: 99.99514032879146 ; Test top5 accuracy: 77.07987716962707
-	Train time: 353.0881245136261 seconds; Test time:41.55735230445862 seconds
+	Train loss: 0.08274697731382931 ; Test loss: 1.8154429864883423
+	Train top1 accuracy: 99.39764186140067 ; Test top1 accuracy: 60.33125732421875
+	Train top5 accuracy: 99.99555398861821 ; Test top5 accuracy: 83.56681121826172
+	Train time: 523.2396945953369 seconds; Test time:12.636571168899536 seconds
 Epoch 67 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12786264567507952 ; Test loss: 2.3596947463053577
-	Train top1 accuracy: 97.64445101480348 ; Test top1 accuracy: 48.85523490186007
-	Train top5 accuracy: 99.99514032879146 ; Test top5 accuracy: 77.1240989397157
-	Train time: 352.75954365730286 seconds; Test time:42.095848083496094 seconds
+	Train loss: 0.08245688462600159 ; Test loss: 1.8131279277801513
+	Train top1 accuracy: 99.40477833123254 ; Test top1 accuracy: 60.291052703857424
+	Train top5 accuracy: 99.99578798921725 ; Test top5 accuracy: 83.58258392333984
+	Train time: 523.118105173111 seconds; Test time:12.984330892562866 seconds
 Epoch 68 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12736657909801785 ; Test loss: 2.3686054765053517
-	Train top1 accuracy: 97.6516104784057 ; Test top1 accuracy: 48.74689325296654
-	Train top5 accuracy: 99.99560315462085 ; Test top5 accuracy: 77.11820112984135
-	Train time: 352.3747811317444 seconds; Test time:41.6007661819458 seconds
+	Train loss: 0.08213552479117442 ; Test loss: 1.8129077243804932
+	Train top1 accuracy: 99.4058714065308 ; Test top1 accuracy: 60.24498809814453
+	Train top5 accuracy: 99.99578798921725 ; Test top5 accuracy: 83.52789642333984
+	Train time: 523.548938035965 seconds; Test time:13.065635204315186 seconds
 Epoch 69 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12721848011158088 ; Test loss: 2.363290141213615
-	Train top1 accuracy: 97.64636375101821 ; Test top1 accuracy: 48.711423729950525
-	Train top5 accuracy: 99.99595027399289 ; Test top5 accuracy: 77.05348464677918
-	Train time: 352.67032074928284 seconds; Test time:43.02210283279419 seconds
+	Train loss: 0.08186304401427794 ; Test loss: 1.8139132499694823
+	Train top1 accuracy: 99.41398129447961 ; Test top1 accuracy: 60.3866081237793
+	Train top5 accuracy: 99.99578798921725 ; Test top5 accuracy: 83.51846221923829
+	Train time: 523.5122408866882 seconds; Test time:13.243744134902954 seconds
 Epoch 70 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12652762179479216 ; Test loss: 2.3691120282658993
-	Train top1 accuracy: 97.65812791580272 ; Test top1 accuracy: 48.73754443762437
-	Train top5 accuracy: 99.99606598045024 ; Test top5 accuracy: 77.07024901767947
-	Train time: 352.4208526611328 seconds; Test time:42.04905343055725 seconds
+	Train loss: 0.08167999054486759 ; Test loss: 1.8158609437942506
+	Train top1 accuracy: 99.41021911328593 ; Test top1 accuracy: 60.27443237304688
+	Train top5 accuracy: 99.99539798821885 ; Test top5 accuracy: 83.57834564208984
+	Train time: 522.9344098567963 seconds; Test time:12.808507442474365 seconds
 Epoch 71 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.1263149003741018 ; Test loss: 2.3679183384157576
-	Train top1 accuracy: 97.67333973527519 ; Test top1 accuracy: 48.72225264783175
-	Train top5 accuracy: 99.99606598045024 ; Test top5 accuracy: 77.03413765385466
-	Train time: 353.0288531780243 seconds; Test time:42.162238121032715 seconds
+	Train loss: 0.08159439434734778 ; Test loss: 1.815675230026245
+	Train top1 accuracy: 99.40399940173847 ; Test top1 accuracy: 60.24498809814453
+	Train top5 accuracy: 99.99531998801918 ; Test top5 accuracy: 83.54466400146484
+	Train time: 524.4826645851135 seconds; Test time:14.515359163284302 seconds
 Epoch 72 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12588830348722177 ; Test loss: 2.371447338248199
-	Train top1 accuracy: 97.65688483070988 ; Test top1 accuracy: 48.75698211957823
-	Train top5 accuracy: 99.99537174170617 ; Test top5 accuracy: 77.07499140613484
-	Train time: 353.4490029811859 seconds; Test time:41.161988973617554 seconds
+	Train loss: 0.08130040648170173 ; Test loss: 1.8186276388168334
+	Train top1 accuracy: 99.41443112406868 ; Test top1 accuracy: 60.25427490234375
+	Train top5 accuracy: 99.99648999101437 ; Test top5 accuracy: 83.48754425048828
+	Train time: 523.0982012748718 seconds; Test time:13.155502557754517 seconds
 Epoch 73 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.125505477507815 ; Test loss: 2.369981862464041
-	Train top1 accuracy: 97.6741558454613 ; Test top1 accuracy: 48.69028706820506
-	Train top5 accuracy: 99.99618168690758 ; Test top5 accuracy: 77.04560844853239
-	Train time: 352.8758101463318 seconds; Test time:41.460784912109375 seconds
+	Train loss: 0.081140568854805 ; Test loss: 1.8192915678024293
+	Train top1 accuracy: 99.41778513265494 ; Test top1 accuracy: 60.29495864868164
+	Train top5 accuracy: 99.99586598941693 ; Test top5 accuracy: 83.49974182128906
+	Train time: 524.7762727737427 seconds; Test time:13.997170209884644 seconds
 Epoch 74 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12534359127494962 ; Test loss: 2.3644091025838314
-	Train top1 accuracy: 97.6563769697578 ; Test top1 accuracy: 48.72713092588029
-	Train top5 accuracy: 99.99618168690758 ; Test top5 accuracy: 77.01966893897867
-	Train time: 353.2517955303192 seconds; Test time:41.29182434082031 seconds
+	Train loss: 0.08083579113213019 ; Test loss: 1.8176968812942504
+	Train top1 accuracy: 99.41441189214444 ; Test top1 accuracy: 60.28552474975586
+	Train top5 accuracy: 99.99594398961662 ; Test top5 accuracy: 83.53522979736329
+	Train time: 524.3283829689026 seconds; Test time:12.857179164886475 seconds
 Epoch 75 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12491859144297256 ; Test loss: 2.37349626253236
-	Train top1 accuracy: 97.68496362405931 ; Test top1 accuracy: 48.677887466718566
-	Train top5 accuracy: 99.99652880627963 ; Test top5 accuracy: 77.02354287201504
-	Train time: 354.052613735199 seconds; Test time:41.72118282318115 seconds
+	Train loss: 0.08067715450073965 ; Test loss: 1.820194296836853
+	Train top1 accuracy: 99.41361052540545 ; Test top1 accuracy: 60.24303482055664
+	Train top5 accuracy: 99.99633399061501 ; Test top5 accuracy: 83.4632958984375
+	Train time: 525.4094944000244 seconds; Test time:12.601329803466797 seconds
 Epoch 76 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12467446916193758 ; Test loss: 2.3753581047058105
-	Train top1 accuracy: 97.66654274022974 ; Test top1 accuracy: 48.66393226047732
-	Train top5 accuracy: 99.99629739336493 ; Test top5 accuracy: 77.03072443548238
-	Train time: 353.79138803482056 seconds; Test time:41.25583791732788 seconds
+	Train loss: 0.08043275429560734 ; Test loss: 1.8213410186767578
+	Train top1 accuracy: 99.42201744786466 ; Test top1 accuracy: 60.25213729858398
+	Train top5 accuracy: 99.9960219898163 ; Test top5 accuracy: 83.46963439941406
+	Train time: 525.7206859588623 seconds; Test time:12.498639345169067 seconds
 Epoch 77 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12443182959940761 ; Test loss: 2.3730396954518445
-	Train top1 accuracy: 97.68288806716413 ; Test top1 accuracy: 48.67479892946639
-	Train top5 accuracy: 99.99628202610106 ; Test top5 accuracy: 77.00350117233565
-	Train time: 353.5643575191498 seconds; Test time:41.859031200408936 seconds
+	Train loss: 0.08032284567531306 ; Test loss: 1.8180870819091797
+	Train top1 accuracy: 99.42215421633979 ; Test top1 accuracy: 60.24041854858398
+	Train top5 accuracy: 99.9961192219402 ; Test top5 accuracy: 83.4789208984375
+	Train time: 523.1676454544067 seconds; Test time:12.814743518829346 seconds
 Epoch 78 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12382514527623688 ; Test loss: 2.3785515011481517
-	Train top1 accuracy: 97.69279378737319 ; Test top1 accuracy: 48.69617728467257
-	Train top5 accuracy: 99.99606598045024 ; Test top5 accuracy: 77.0131746687979
-	Train time: 352.50144267082214 seconds; Test time:41.3362832069397 seconds
+	Train loss: 0.08001478031848946 ; Test loss: 1.8154983568191527
+	Train top1 accuracy: 99.42359561127977 ; Test top1 accuracy: 60.21797622680664
+	Train top5 accuracy: 99.99563198881789 ; Test top5 accuracy: 83.54075744628906
+	Train time: 523.1083357334137 seconds; Test time:13.058655261993408 seconds
 Epoch 79 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12364738438084227 ; Test loss: 2.3740187905869394
-	Train top1 accuracy: 97.6788926327963 ; Test top1 accuracy: 48.68088545889225
-	Train top5 accuracy: 99.99652880627963 ; Test top5 accuracy: 76.99143384537606
-	Train time: 352.8298852443695 seconds; Test time:43.35283350944519 seconds
+	Train loss: 0.07994746644133197 ; Test loss: 1.817977089881897
+	Train top1 accuracy: 99.41961761328359 ; Test top1 accuracy: 60.30129699707031
+	Train top5 accuracy: 99.99648999101437 ; Test top5 accuracy: 83.5109814453125
+	Train time: 525.9775531291962 seconds; Test time:12.49437952041626 seconds
 Epoch 80 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12324620788625631 ; Test loss: 2.373510761081048
-	Train top1 accuracy: 97.69612571752467 ; Test top1 accuracy: 48.679548803365456
-	Train top5 accuracy: 99.99676021919431 ; Test top5 accuracy: 76.9901878069032
-	Train time: 353.52164936065674 seconds; Test time:41.817118644714355 seconds
+	Train loss: 0.07971577661724898 ; Test loss: 1.8230479907989503
+	Train top1 accuracy: 99.4273780847129 ; Test top1 accuracy: 60.22545700073242
+	Train top5 accuracy: 99.99666522333797 ; Test top5 accuracy: 83.47940002441406
+	Train time: 523.2696092128754 seconds; Test time:13.7577223777771 seconds
 Epoch 81 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12322369406785445 ; Test loss: 2.385137423029486
-	Train top1 accuracy: 97.67992578298559 ; Test top1 accuracy: 48.61556481415371
-	Train top5 accuracy: 99.99629739336493 ; Test top5 accuracy: 76.95762569499466
-	Train time: 352.52949261665344 seconds; Test time:41.92825508117676 seconds
+	Train loss: 0.07945415700157991 ; Test loss: 1.8223089694976806
+	Train top1 accuracy: 99.41874036697534 ; Test top1 accuracy: 60.18020324707031
+	Train top5 accuracy: 99.99641199081469 ; Test top5 accuracy: 83.51536682128906
+	Train time: 523.1759753227234 seconds; Test time:12.979608058929443 seconds
 Epoch 82 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12286203617662615 ; Test loss: 2.387504181771908
-	Train top1 accuracy: 97.67925611378458 ; Test top1 accuracy: 48.68922229982772
-	Train top5 accuracy: 99.99710733856635 ; Test top5 accuracy: 76.94205446063347
-	Train time: 352.59263372421265 seconds; Test time:42.26926922798157 seconds
+	Train loss: 0.07942809744145923 ; Test loss: 1.821266541481018
+	Train top1 accuracy: 99.42195760708647 ; Test top1 accuracy: 60.316590576171876
+	Train top5 accuracy: 99.99625599041534 ; Test top5 accuracy: 83.4613427734375
+	Train time: 524.6835913658142 seconds; Test time:12.71288776397705 seconds
 Epoch 83 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12245425502482749 ; Test loss: 2.379037130553767
-	Train top1 accuracy: 97.67823726419024 ; Test top1 accuracy: 48.64265204375645
-	Train top5 accuracy: 99.99710733856635 ; Test top5 accuracy: 76.97494125366211
-	Train time: 353.9142894744873 seconds; Test time:42.104296922683716 seconds
+	Train loss: 0.0791023569746901 ; Test loss: 1.8213728475570679
+	Train top1 accuracy: 99.42815915921244 ; Test top1 accuracy: 60.260281524658204
+	Train top5 accuracy: 99.99672399161342 ; Test top5 accuracy: 83.43447814941406
+	Train time: 525.6542506217957 seconds; Test time:12.545135259628296 seconds
 Epoch 84 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12229960796674846 ; Test loss: 2.3778260788827574
-	Train top1 accuracy: 97.702258159764 ; Test top1 accuracy: 48.674572350843896
-	Train top5 accuracy: 99.99641309982228 ; Test top5 accuracy: 76.98678207397461
-	Train time: 354.85035490989685 seconds; Test time:41.94464468955994 seconds
+	Train loss: 0.07898623823595885 ; Test loss: 1.8256268835067748
+	Train top1 accuracy: 99.43334563623984 ; Test top1 accuracy: 60.21698104858398
+	Train top5 accuracy: 99.99672399161342 ; Test top5 accuracy: 83.47792572021484
+	Train time: 524.2543971538544 seconds; Test time:12.91412091255188 seconds
 Epoch 85 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12205943433453122 ; Test loss: 2.381421725704985
-	Train top1 accuracy: 97.68183134178415 ; Test top1 accuracy: 48.652416157272626
-	Train top5 accuracy: 99.99652880627963 ; Test top5 accuracy: 76.9661890425772
-	Train time: 352.40656542778015 seconds; Test time:42.11705255508423 seconds
+	Train loss: 0.07881021711487358 ; Test loss: 1.8224209117889405
+	Train top1 accuracy: 99.43582348320811 ; Test top1 accuracy: 60.11446044921875
+	Train top5 accuracy: 99.99672399161342 ; Test top5 accuracy: 83.45010284423829
+	Train time: 526.6866092681885 seconds; Test time:13.288190364837646 seconds
 Epoch 86 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12160504123822773 ; Test loss: 2.3791033029556274
-	Train top1 accuracy: 97.69844803651927 ; Test top1 accuracy: 48.683324561928806
-	Train top5 accuracy: 99.99629739336493 ; Test top5 accuracy: 76.97835461598522
-	Train time: 350.87844920158386 seconds; Test time:40.96573781967163 seconds
+	Train loss: 0.0786464382855656 ; Test loss: 1.8213338565826416
+	Train top1 accuracy: 99.43326763604014 ; Test top1 accuracy: 60.16767379760742
+	Train top5 accuracy: 99.99664599141374 ; Test top5 accuracy: 83.44881317138672
+	Train time: 524.5529954433441 seconds; Test time:13.138562202453613 seconds
 Epoch 87 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12147070433926808 ; Test loss: 2.379530906677246
-	Train top1 accuracy: 97.71181468150063 ; Test top1 accuracy: 48.682448585078404
-	Train top5 accuracy: 99.99745445793839 ; Test top5 accuracy: 76.98682741848927
-	Train time: 355.47003412246704 seconds; Test time:43.305317878723145 seconds
+	Train loss: 0.07852661113341014 ; Test loss: 1.8252159309387208
+	Train top1 accuracy: 99.43564717838177 ; Test top1 accuracy: 60.14961669921875
+	Train top5 accuracy: 99.99711399261182 ; Test top5 accuracy: 83.4730615234375
+	Train time: 523.0881106853485 seconds; Test time:12.771886110305786 seconds
 Epoch 88 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12127086038202471 ; Test loss: 2.382345622440554
-	Train top1 accuracy: 97.69986619994539 ; Test top1 accuracy: 48.67374168252045
-	Train top5 accuracy: 99.99697626484515 ; Test top5 accuracy: 76.96559258227079
-	Train time: 354.7129957675934 seconds; Test time:41.556374073028564 seconds
+	Train loss: 0.07842374717989288 ; Test loss: 1.8267075681686402
+	Train top1 accuracy: 99.42537038394818 ; Test top1 accuracy: 60.256375274658204
+	Train top5 accuracy: 99.99734799321087 ; Test top5 accuracy: 83.47940002441406
+	Train time: 523.367623090744 seconds; Test time:12.470093250274658 seconds
 Epoch 89 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12080636410422235 ; Test loss: 2.3879485400217884
-	Train top1 accuracy: 97.70485795730663 ; Test top1 accuracy: 48.63366576860536
-	Train top5 accuracy: 99.99733875148104 ; Test top5 accuracy: 76.93205613910027
-	Train time: 353.62197375297546 seconds; Test time:41.82980513572693 seconds
+	Train loss: 0.07828285702215597 ; Test loss: 1.8235184335708619
+	Train top1 accuracy: 99.44063919116132 ; Test top1 accuracy: 60.23960784912109
+	Train top5 accuracy: 99.99742599341054 ; Test top5 accuracy: 83.51617767333984
+	Train time: 523.7895426750183 seconds; Test time:12.984527587890625 seconds
 Epoch 90 Summary: 
 	Learning rate: 0.0010000000000000002
-	Train loss: 0.12060275961649361 ; Test loss: 2.3839127140225105
-	Train top1 accuracy: 97.70908482266829 ; Test top1 accuracy: 48.61390347750682
-	Train top5 accuracy: 99.99745445793839 ; Test top5 accuracy: 76.93578662512438
-	Train time: 353.7094843387604 seconds; Test time:41.32223463058472 seconds
+	Train loss: 0.07798151377909862 ; Test loss: 1.8256051063537597
+	Train top1 accuracy: 99.43541317778273 ; Test top1 accuracy: 60.16409942626953
+	Train top5 accuracy: 99.99713322453606 ; Test top5 accuracy: 83.46377502441406
+	Train time: 523.8105492591858 seconds; Test time:12.623621463775635 seconds
 Epoch 91 Summary: 
 	Learning rate: 0.00010000000000000003
-	Train loss: 0.11874855865870042 ; Test loss: 2.3825040830756135
-	Train top1 accuracy: 97.80280707119765 ; Test top1 accuracy: 48.65029424991248
-	Train top5 accuracy: 99.99710733856635 ; Test top5 accuracy: 76.95057260765219
-	Train time: 352.9192461967468 seconds; Test time:42.35923480987549 seconds
+	Train loss: 0.07691095238581253 ; Test loss: 1.8251076126098633
+	Train top1 accuracy: 99.465734963219 ; Test top1 accuracy: 60.12113052368164
+	Train top5 accuracy: 99.99726999301119 ; Test top5 accuracy: 83.44147979736329
+	Train time: 523.6560683250427 seconds; Test time:12.509067296981812 seconds
 Epoch 92 Summary: 
 	Learning rate: 0.00010000000000000003
-	Train loss: 0.11887896156282786 ; Test loss: 2.388214642146848
-	Train top1 accuracy: 97.8111604808066 ; Test top1 accuracy: 48.61067894269835
-	Train top5 accuracy: 99.99780157731043 ; Test top5 accuracy: 76.95721032484522
-	Train time: 353.10326194763184 seconds; Test time:42.014275312423706 seconds
+	Train loss: 0.07694915914164184 ; Test loss: 1.8200244569778443
+	Train top1 accuracy: 99.46704279500456 ; Test top1 accuracy: 60.16490997314453
+	Train top5 accuracy: 99.99719199281151 ; Test top5 accuracy: 83.4133251953125
+	Train time: 524.2474129199982 seconds; Test time:15.032175540924072 seconds
 Epoch 93 Summary: 
 	Learning rate: 0.00010000000000000003
-	Train loss: 0.11878299819067191 ; Test loss: 2.3832715524817414
-	Train top1 accuracy: 97.81234824374954 ; Test top1 accuracy: 48.64504587425376
-	Train top5 accuracy: 99.99733875148104 ; Test top5 accuracy: 76.98171507637456
-	Train time: 354.08752179145813 seconds; Test time:41.71910238265991 seconds
+	Train loss: 0.07683678001117783 ; Test loss: 1.824993224143982
+	Train top1 accuracy: 99.46834849397214 ; Test top1 accuracy: 60.206736450195315
+	Train top5 accuracy: 99.99765999400958 ; Test top5 accuracy: 83.4007958984375
+	Train time: 525.7777264118195 seconds; Test time:15.769927740097046 seconds
 Epoch 94 Summary: 
 	Learning rate: 0.00010000000000000003
-	Train loss: 0.1186358734294419 ; Test loss: 2.3796235547875457
-	Train top1 accuracy: 97.82030843219486 ; Test top1 accuracy: 48.58963282603138
-	Train top5 accuracy: 99.996991632109 ; Test top5 accuracy: 76.93703266359725
-	Train time: 351.84774017333984 seconds; Test time:41.814762353897095 seconds
+	Train loss: 0.07684604546275382 ; Test loss: 1.8228275442123414
+	Train top1 accuracy: 99.4708252684377 ; Test top1 accuracy: 60.19372772216797
+	Train top5 accuracy: 99.99711399261182 ; Test top5 accuracy: 83.45710479736329
+	Train time: 524.6875295639038 seconds; Test time:13.389801025390625 seconds
 Epoch 95 Summary: 
 	Learning rate: 0.00010000000000000003
-	Train loss: 0.11872183307299117 ; Test loss: 2.3816887207751005
-	Train top1 accuracy: 97.7916685167647 ; Test top1 accuracy: 48.61141899396788
-	Train top5 accuracy: 99.9972230450237 ; Test top5 accuracy: 76.96342518644512
-	Train time: 352.5035455226898 seconds; Test time:42.13893270492554 seconds
+	Train loss: 0.07663352572070524 ; Test loss: 1.8251244831085205
+	Train top1 accuracy: 99.47882082515632 ; Test top1 accuracy: 60.19306442260742
+	Train top5 accuracy: 99.99750399361022 ; Test top5 accuracy: 83.4476708984375
+	Train time: 524.9761061668396 seconds; Test time:13.034329175949097 seconds
 Epoch 96 Summary: 
 	Learning rate: 0.00010000000000000003
-	Train loss: 0.11857317329794875 ; Test loss: 2.3861702905510955
-	Train top1 accuracy: 97.81204720808996 ; Test top1 accuracy: 48.61247620492611
-	Train top5 accuracy: 99.99780157731043 ; Test top5 accuracy: 76.93892050689121
-	Train time: 353.17892575263977 seconds; Test time:40.83175444602966 seconds
+	Train loss: 0.07675773294541402 ; Test loss: 1.8267572021484375
+	Train top1 accuracy: 99.46341417696529 ; Test top1 accuracy: 60.228073272705075
+	Train top5 accuracy: 99.99695799221246 ; Test top5 accuracy: 83.41804229736329
+	Train time: 524.9026925563812 seconds; Test time:12.611924648284912 seconds
 Epoch 97 Summary: 
 	Learning rate: 0.00010000000000000003
-	Train loss: 0.11847326524944102 ; Test loss: 2.3867993512243593
-	Train top1 accuracy: 97.7985341040444 ; Test top1 accuracy: 48.64703192800846
-	Train top5 accuracy: 99.99710733856635 ; Test top5 accuracy: 76.94643430889778
-	Train time: 352.6306166648865 seconds; Test time:41.646546602249146 seconds
+	Train loss: 0.07668331942666834 ; Test loss: 1.824040732383728
+	Train top1 accuracy: 99.46639848898013 ; Test top1 accuracy: 60.10502624511719
+	Train top5 accuracy: 99.99711399261182 ; Test top5 accuracy: 83.41461547851563
+	Train time: 523.5816278457642 seconds; Test time:13.857086181640625 seconds
 Epoch 98 Summary: 
 	Learning rate: 0.00010000000000000003
-	Train loss: 0.11857256146756959 ; Test loss: 2.3833571177608563
-	Train top1 accuracy: 97.80597722925846 ; Test top1 accuracy: 48.556881886608195
-	Train top5 accuracy: 99.99791728376778 ; Test top5 accuracy: 76.9198076500083
-	Train time: 354.34474444389343 seconds; Test time:41.24456739425659 seconds
+	Train loss: 0.07677744350399072 ; Test loss: 1.8261083364486694
+	Train top1 accuracy: 99.4668077340903 ; Test top1 accuracy: 60.273953399658204
+	Train top5 accuracy: 99.99711399261182 ; Test top5 accuracy: 83.44000610351563
+	Train time: 523.7400460243225 seconds; Test time:12.878514766693115 seconds
 Epoch 99 Summary: 
 	Learning rate: 0.00010000000000000003
-	Train loss: 0.11848959598637306 ; Test loss: 2.3844610497636616
-	Train top1 accuracy: 97.80279069150228 ; Test top1 accuracy: 48.56484873789661
-	Train top5 accuracy: 99.99710733856635 ; Test top5 accuracy: 76.9097187833966
-	Train time: 353.32379031181335 seconds; Test time:42.8191556930542 seconds
+	Train loss: 0.07669726437844407 ; Test loss: 1.826441569328308
+	Train top1 accuracy: 99.46378601854221 ; Test top1 accuracy: 60.24351409912109
+	Train top5 accuracy: 99.99703599241214 ; Test top5 accuracy: 83.45872650146484
+	Train time: 522.4883649349213 seconds; Test time:13.259481430053711 seconds
 Epoch 100 Summary: 
 	Learning rate: 0.00010000000000000003
-	Train loss: 0.11855285764799864 ; Test loss: 2.383209894288261
-	Train top1 accuracy: 97.79581042827589 ; Test top1 accuracy: 48.6030821170447
-	Train top5 accuracy: 99.9972230450237 ; Test top5 accuracy: 76.92529001775777
-	Train time: 352.7577395439148 seconds; Test time:41.551199197769165 seconds
+	Train loss: 0.07659734947422442 ; Test loss: 1.8228910160064697
+	Train top1 accuracy: 99.46803649317343 ; Test top1 accuracy: 60.169479522705075
+	Train top5 accuracy: 99.99742599341054 ; Test top5 accuracy: 83.48606994628906
+	Train time: 525.881454706192 seconds; Test time:15.910685062408447 seconds
 
 
 Training Summary:
 	Best epoch: 30
-	 Best Test top1 accuracy: 52.17210395381136
-	Training time: 662.1034275571506 minutes
+	 Best Test top1 accuracy: 63.03301895141602
+	Training time: 896.6546839753787 minutes
