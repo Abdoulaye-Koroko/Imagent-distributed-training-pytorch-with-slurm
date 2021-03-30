@@ -2,5 +2,5 @@
 
 Multi-nodes imagenet training using DDP (DistributedDataParallel)
 
-![Tensorboard](Tensorboard.PNG)
+![Tensorboard](Graphs.PNG)
 
